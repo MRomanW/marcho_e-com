@@ -1,6 +1,7 @@
 body {
   color: $default-color;
-  font-size: 26px;
+  font-size: 16px;
+  @extend %quicksand-500;
 }
 
 .container {

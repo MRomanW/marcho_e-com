@@ -23,15 +23,18 @@
   &__list-link {
     color: $title-color;
     border-bottom: 1px solid transparent;
+    @extend %quicksand-400;
     &:hover {
       border-bottom: 1px solid $accent-color;
       color: $accent-color;
       transition: all 0.3s;
+      @extend %quicksand-500;
     }
   }
   &__list-link--active {
     color: $accent-color;
     border-bottom: 1px solid $accent-color;
+    @extend %quicksand-500;
   }
 }
 
